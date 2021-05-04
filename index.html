@@ -2,49 +2,55 @@
 <html>
  <head>
   <style>
-   div.left{
-      float: left;
-	  height: 60px;
-	  width: calc(20% - 1px * 2);
+   div.NAME{
 	  border: 1px solid black;
+	  float: left;
+	  height: 100px;
+	  width: calc(20% - 1px * 2)
    }
-   div.empty{
-      float: left;
-	  height: 60px;
-	  width: 60%;
+   div.Empty{
 	  border-top: 1px solid black;
 	  border-bottom: 1px solid black;
+	  float: left;
+	  height: 100px;
+	  width: 60%;
    }
-   div.right{
-      float: left;
-	  height: 60px;
-	  width: calc(20% - 1px * 2);
+   div.DATA{
 	  border: 1px solid black;
-   }   
-   div.message{
-      height: 500px;
+	  float: left;
+	  height: 100px;
+	  width: calc(20% - 1px * 2)
+   }
+   div.clear{
+      clear: both;
+   }
+   div.Message{
       border: 1px solid black;
+	  height: 500px;
    }
    div.button{
-	  float: right;
+      float: right;
    }
   </style>
  </head>
  <body>
-  <div class="container">
-   <div class="left">
-    <h2>Name</h2>
-   </div> 
-   <div class="empty"></div>
-   <div class="right">
-    <h2>Data</h2>
+  <div>
+   <div class="NAME">
+    <h2>NAME</h2>
    </div>
-   <div class="message">Message</div>
+   <div class="Empty">
+   </div>
+   <div class="DATA">
+    <h2>DATA</h2>  
+   </div>
+   <div class="clear"></div>
+   <div class="Message">Message</div>
    <div>
-    <textarea cols="235"></textarea>
+    <textarea cols="269"></textarea>
    </div>
    <div class="button">
-	<button >Click me</button>
+    <button>Click me</button>
    </div>
+  </div>
  </body>
 </html>
