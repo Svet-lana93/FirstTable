@@ -2,22 +2,23 @@
 <html>
  <head></head>
  <body>
-  <table width="1000px" border="1" cellspacing="5">
+  <table border="1px" width="1000px" cellspacing="0">
    <tr>
-    <th>Имя</th>
-	<td width="700px"></td>
-	<th>Дата</th>
+    <th>NAME</th>
+    <th width="700"></th>
+    <th>DATA</th>
    </tr>
    <tr>
-    <td colspan="3">Сообщение</td>
+    <td colspan="3">Message</td>
    </tr>
    <tr>
-    <td colspan="3" height="500px"></td>
+    <td colspan="3" height="300px"></td>
    </tr>
    <tr>
     <td colspan="3" align="right">
-	 <textarea cols="150"></textarea>
-	 <button>Нажми меня</button>
+     <textarea cols="150"></textarea>
+	 <button>Click me</button>
+	</td>
    </tr>
   </table>
  </body>
