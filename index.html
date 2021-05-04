@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   div.left{
+      float: left;
+	  height: 60px;
+	  width: calc(20% - 1px * 2);
+	  border: 1px solid black;
+   }
+   div.empty{
+      float: left;
+	  height: 60px;
+	  width: 60%;
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+   }
+   div.right{
+      float: left;
+	  height: 60px;
+	  width: calc(20% - 1px * 2);
+	  border: 1px solid black;
+   }   
+   div.message{
+      height: 500px;
+      border: 1px solid black;
+   }
+   div.button{
+	  float: right;
+   }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left">
+    <h2>Name</h2>
+   </div> 
+   <div class="empty"></div>
+   <div class="right">
+    <h2>Data</h2>
+   </div>
+   <div class="message">Message</div>
+   <div>
+    <textarea cols="235"></textarea>
+   </div>
+   <div class="button">
+	<button >Click me</button>
+   </div>
+ </body>
+</html>
