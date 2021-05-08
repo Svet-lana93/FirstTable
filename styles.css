@@ -1,0 +1,37 @@
+   div.NAME{
+	  border: 1px solid black;
+	  float: left;
+	  height: 50px;
+	  width: calc(20% - 1px * 2);
+	  text-align:center;
+   }
+   div.Empty{
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+	  float: left;
+	  height: 50px;
+	  width: 60%;
+   }
+   div.DATA{
+	  border: 1px solid black;
+	  float: left;
+	  height: 50px;
+	  width: calc(20% - 1px * 2);
+	  text-align:center;
+   }
+   div.clear{
+      clear: both;
+   }
+   div.Message{
+	  border-left: 1px solid black;
+	  border-right: 1px solid black;
+	  height: 50px;
+   }
+   div.Empty2 {
+	  height: 100px;
+	  border-left: 1px solid black;
+	  border-right: 1px solid black;
+   }
+   #button{
+      float: right;
+   }

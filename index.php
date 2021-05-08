@@ -2,21 +2,19 @@
 <html>
  <head></head>
  <body>
-  <table border="1px" width="1000px" cellspacing="0">
+  <table width="1000px" border="1px" cellspacing="0">
    <tr>
     <th>NAME</th>
-    <th width="700"></th>
-    <th>DATA</th>
+	<th width="700px"></th>
+	<th>DATE</th>
    </tr>
    <tr>
     <td colspan="3">Message</td>
    </tr>
-   <tr>
-    <td colspan="3" height="300px"></td>
-   </tr>
+    <td height="500px" colspan="3"></td>
    <tr>
     <td colspan="3" align="right">
-     <textarea cols="150"></textarea>
+     <textarea cols="160"></textarea>
 	 <button>Click me</button>
 	</td>
    </tr>

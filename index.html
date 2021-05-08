@@ -1,56 +1,29 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <style>
-   div.NAME{
-	  border: 1px solid black;
-	  float: left;
-	  height: 100px;
-	  width: calc(20% - 1px * 2)
-   }
-   div.Empty{
-	  border-top: 1px solid black;
-	  border-bottom: 1px solid black;
-	  float: left;
-	  height: 100px;
-	  width: 60%;
-   }
-   div.DATA{
-	  border: 1px solid black;
-	  float: left;
-	  height: 100px;
-	  width: calc(20% - 1px * 2)
-   }
-   div.clear{
-      clear: both;
-   }
-   div.Message{
-      border: 1px solid black;
-	  height: 500px;
-   }
-   div.button{
-      float: right;
-   }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
  </head>
  <body>
-  <div>
+  <div id="tableToClone">
    <div class="NAME">
-    <h2>NAME</h2>
+     <h2>NAME</h2>
    </div>
    <div class="Empty">
    </div>
    <div class="DATA">
     <h2>DATA</h2>  
    </div>
-   <div class="clear"></div>
-   <div class="Message">Message</div>
-   <div>
-    <textarea cols="269"></textarea>
-   </div>
-   <div class="button">
-    <button>Click me</button>
-   </div>
+    <div class="clear"></div>
+    <div class="Message">Message</div>
   </div>
+  <div id="tableAdd">
+  </div>
+  <div class="Empty2">
+  </div>
+  <div>
+   <textarea id="textarea" cols="269"></textarea>
+   <button id="button" type="button" onclick="tablemore()">Click me</button>
+  </div>
+  <script type="text/javascript" src="code.js"></script>  
  </body>
 </html>
