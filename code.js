@@ -1,15 +1,26 @@
-  function tablemore() {
-   if (document.getElementById("textarea").value != "") { 
-    let name = document.querySelector('.NAME').cloneNode(true);
-	tableAdd.appendChild(name);
-    let empty = document.querySelector('.Empty').cloneNode(true);
-	tableAdd.appendChild(empty);
-    let data = document.querySelector('.DATA').cloneNode(true);
-	tableAdd.appendChild(data);
-    let clear = document.querySelector('.clear').cloneNode(true);
-	tableAdd.appendChild(clear);
-    let message = document.querySelector('.Message').cloneNode(false);
-	tableAdd.appendChild(message);		
-	message.innerHTML = document.getElementById("textarea").value;
-	document.getElementById('textarea').value = "";
-  }}
+$(function(){
+	let textarea = $("#textarea");
+	let button = $("button#Button");
+	
+   
+	$(button).click(function(){	
+	  let message = $(textarea).val().trim();
+	  
+	  if (message != "") {
+		$('#MessageBox').append(`
+			<div class="Message">
+			 <div class="Name">
+			  <h2>NAME</h2>
+			 </div>
+			 <div class="Empty"></div>
+			 <div class="Data">
+			  <h2>DATA</h2>
+			 </div>
+			 <div class="Clear"></div>
+			 <div class="Text">${message}</div>
+			</div>
+		`);
+       $(textarea).val("");	
+	 }})
+})
+
