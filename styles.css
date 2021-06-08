@@ -1,22 +1,22 @@
 .Name {
 	height: 50px;
+	float: left;
 	width: calc(20% - 1px * 2);
 	border: 1px solid black;
-	float: left;
 	text-align: center;
 }
 .Empty {
 	height: 50px;
+	float: left;
 	width: 60%;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	float: left;
 }
 .Data {
 	height: 50px;
-	width: calc(20% - 1px *2);
-	border: 1px solid black;
 	float: left;
+	width: calc(20% - 1px * 2);
+	border: 1px solid black;
 	text-align: center;
 }
 .Clear {
@@ -24,11 +24,6 @@
 }
 .Text {
 	height: 50px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-}
-.Empty2 {
-	height: 100px;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
