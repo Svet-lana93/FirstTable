@@ -2,24 +2,19 @@
 <html>
  <head></head>
  <body>
-  <table border="1" width="1000px" cellspacing="0">
-   <tr>
-    <th>NAME</th>
-    <th width="700px"></th>
-    <th>DATA</th>
-   </tr>
-   <tr>
-    <td colspan="3">Message</td>
-   </tr>
-   <tr>
-    <td colspan="3" height="500px"></td>
-   </tr>
-   <tr>
-    <td align="right" colspan="3">
-	 <textarea cols="169"></textarea>
-	 <button>Click me</button>
-	</td>
-   </tr>
-  </table>
+  <form action="/form_data.php" method="POST">
+   <select name="Cigarette_brand[]" multiple size="3">
+    <option>Marlbaro</option>
+    <option>LM</option>
+    <option>Camel</option>
+   </select>
+   <br>
+   <input type="radio" name="Sex" Value="F">Female<br>
+   <input type="radio" name="sex" Value="M">Male<br>
+   <input type="text" name="First_name"><br>
+   <input type="range" name="price" min="0" max="100" step="1" value="50"><br>
+   <textarea name="Message"></textarea><br>
+   <button name="button">Send me</button>
+  </form>
  </body>
 </html>
