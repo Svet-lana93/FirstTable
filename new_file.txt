@@ -1,6 +1,0 @@
-Cigarette_brand = Marlboro, LM, Camel
-Sex = F
-First_name = SERR
-price = 50
-Message = aad
-button = 
